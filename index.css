@@ -1,0 +1,52 @@
+html {
+    overflow-x: hidden;
+    max-width: 1000px;
+    padding: 0 ;
+    margin : 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    max-width: 300px; 
+}
+
+header .coordonnees {
+    max-width: 700px; 
+    text-align: center;
+    padding: auto 0px;
+}
+
+header .coordonnees p {
+    width: 600px;
+}
+
+.sections {
+    background-color: rgba(198, 197, 126, 0.329);
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin : 20px ;
+    position: relative;
+    min-height: 100px;
+}
+
+.sections h1 {
+    position: absolute;
+    top:-43px;
+    background-color: rgba(255, 255, 255, 0.551);
+    border-radius: 3px;;
+    padding: 0 5px 0px;
+}
+
+.sections h2 {
+    position: absolute;
+    top:-35px;
+    background-color: rgba(255, 255, 255, 0.551);
+    border-radius: 3px;;
+    padding: 0 5px 0px;
+}
