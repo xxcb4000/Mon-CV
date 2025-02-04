@@ -1,6 +1,6 @@
 html {
     overflow-x: hidden;
-    max-width: 1000px;
+
     padding: 0 ;
     margin : 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,6 +29,10 @@ header .coordonnees p {
     width: 600px;
 }
 
+header .moi {
+    font-size: 22px;;
+}
+
 .sections {
     background-color: rgba(198, 197, 126, 0.329);
     padding: 5px 20px;
@@ -52,6 +56,13 @@ header .coordonnees p {
     background-color: rgba(255, 255, 255, 0.551);
     border-radius: 3px;;
     padding: 0 5px 0px;
+}
+
+.sections .ongoing {
+    position: absolute;
+    left:250px;
+    top: -30px;
+    background-color: rgba(255, 255, 255, 0.551);
 }
 
 .portfolio {
